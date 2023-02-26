@@ -1,0 +1,30 @@
+<!--pages/home/home.wxml-->
+<View class='topBar'>
+  <text style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">Jobs4Moms</text>
+</View>
+
+<View class='Module' id="Mom-FriendlyJobsModule">
+  <View class='ModuleContainer' id="Mom-FriendlyJobsModuleContainer">
+    <view class="font_1">Mom-Friendly Jobs</view>
+    <text class='font_2'>One of our top priorities is to collect flexible, mom-friendly jobs from various industries and organizations, aiming to provide support for full-time moms or moms who lost their jobs during the pandemic, to increase their social and financial security.</text>
+    <button class='btn_1'>View Jobs</button>
+  </View>
+</View>
+
+<View class='Module' id="MomsModule">
+  <View class='ModuleContainer' id="MomsModuleContainer">
+    <view class="font_1">Moms</view>
+    <text class='font_2'>If you are a mom looking for a flexible job, we warmly welcome you to subscribe to the Jobs4Moms newsletter for the latest opportunities.</text>
+    <view class="submitEmail">
+      <input placeholder-class="submitEmailInput" name="input" placeholder="Email Address" />
+    </view>
+  </View>
+</View>
+
+<View class='Module' id="EmployersModule">
+  <View class='ModuleContainer' id="EmployersModuleContainer">
+    <view class="font_1">Employers</view>
+    <text class='font_2'>If you are willing to provide such employment opportunities, we sincerely appreciate it and invite you to fill out the following form.</text>
+    <button class='btn_2' plain="true">Submit Jobs</button>
+  </View>
+</View>
