@@ -1,8 +1,8 @@
 {
     "pages": [
         "pages/home/home",
-        "pages/index/index"
-        
+        "pages/index/index",
+        "pages/job-list/job-list"
     ],
     "window": {
         "backgroundTextStyle": "light",
