@@ -1,2 +1,8 @@
 <!--pages/job-list/job-list.wxml-->
-<text>pages/job-list/job-list.wxml</text>
+<View class='topBar'>
+  <text style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">Jobs4Moms Listings</text>
+</View>
+
+<search-bar default-text="搜索工作" focus-text="职位" bindsearch="onSearch" show-mask></search-bar>
+
+
