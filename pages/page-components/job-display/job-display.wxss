@@ -1,1 +1,9 @@
 /* pages/page-components/job-display/job-display.wxss */
+.job-display{
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  position: relative;
+  border-radius: 5px;
+  border-color: rgb(231, 218, 194);
+}

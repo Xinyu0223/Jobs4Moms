@@ -4,5 +4,4 @@
 </View>
 
 <search-bar default-text="搜索工作" focus-text="职位" bindsearch="onSearch" show-mask></search-bar>
-
-
+<job-display></job-display>
