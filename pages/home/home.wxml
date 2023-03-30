@@ -1,7 +1,5 @@
 <!--pages/home/home.wxml-->
-<View class='topBar'>
-  <text style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">Jobs4Moms</text>
-</View>
+<TopBar />
 
 <View class='Module' id="Mom-FriendlyJobsModule">
   <View class='ModuleContainer' id="Mom-FriendlyJobsModuleContainer">
@@ -28,3 +26,5 @@
     <button class='btn_2' plain="true">Submit Jobs</button>
   </View>
 </View>
+
+<Footer />

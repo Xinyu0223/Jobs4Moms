@@ -1,6 +1,9 @@
 {
   "usingComponents": {
     "search-bar": "/components/search-bar/search-bar",
-    "job-display": "/pages/page-components/job-display/job-display"
+    "job-display": "/pages/page-components/job-display/job-display",
+    "TopBar": "/components/TopBar",
+    "Footer": "/components/Footer",
+    "JobDisplay": "/components/JobDisplay"
   }
 }

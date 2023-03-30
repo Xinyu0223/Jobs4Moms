@@ -1,0 +1,11 @@
+<!--Components/JobDisplay.wxml-->
+<View class='Module' id="EmployersModule">
+  <View class='ModuleContainer' id="EmployersModuleContainer">
+    <view wx:if="{{ifFullTime}}">Full-Time</view>
+    <view wx:if="{{ifPartTime}}">Part-Time</view>
+    <view class="font_1">Company: {{companyTitle}}</view>
+    <view class='font_2'>Job Title: {{jobTitle}}</view>
+    <view class='font_2'>Salary: {{salary}}</view>
+    <view class='font_2'>Description: {{brief}}</view>
+  </View>
+</View>

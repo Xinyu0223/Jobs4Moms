@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "TopBar": "/components/TopBar",
+    "Footer": "/components/Footer"
+  }
 }

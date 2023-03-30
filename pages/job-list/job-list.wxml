@@ -1,7 +1,14 @@
 <!--pages/job-list/job-list.wxml-->
-<View class='topBar'>
-  <text style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">Jobs4Moms Listings</text>
-</View>
-
 <search-bar default-text="搜索工作" focus-text="职位" bindsearch="onSearch" show-mask></search-bar>
-<job-display></job-display>
+<!-- <job-display></job-display> -->
+<TopBar />
+  <JobDisplay
+  companyTitle="CleanPower" 
+  jobTitle="Part Time Office Cleaner"
+  location="Wisconsin,USA"
+  salary="$13/h"
+  ifFullTime="{{true}}"
+  ifPartTime="{{false}}"
+  brief="CleanPower a Marsden Holding Company, is a facility services provider with an unmatched reputation for operational excellence. We clean,..."
+  />
+  <Footer />
