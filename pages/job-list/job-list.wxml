@@ -11,4 +11,22 @@
   ifPartTime="{{false}}"
   brief="CleanPower a Marsden Holding Company, is a facility services provider with an unmatched reputation for operational excellence. We clean,..."
   />
+  <JobDisplay
+  companyTitle="CleanPower" 
+  jobTitle="Part Time Office Cleaner"
+  location="Wisconsin,USA"
+  salary="$13/h"
+  ifFullTime="{{true}}"
+  ifPartTime="{{false}}"
+  brief="CleanPower a Marsden Holding Company, is a facility services provider with an unmatched reputation for operational excellence. We clean,..."
+  />
+  <JobDisplay
+  companyTitle="CleanPower" 
+  jobTitle="Part Time Office Cleaner"
+  location="Wisconsin,USA"
+  salary="$13/h"
+  ifFullTime="{{true}}"
+  ifPartTime="{{false}}"
+  brief="CleanPower a Marsden Holding Company, is a facility services provider with an unmatched reputation for operational excellence. We clean,..."
+  />
   <Footer />

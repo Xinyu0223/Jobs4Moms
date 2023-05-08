@@ -1,0 +1,9 @@
+<!--pages/job-detail/job-detail.wxml-->
+<TopBar />
+<View class='JobDetailModule'>
+  <view class="font_1" id='date'>Jul 25, 2022</view>
+  <view class="font_2" id='job-title'>Loan Officer</view>
+  <view class="font_3" >(Full-Time  </view>
+  <view class="font_3" id='salary'>$13/h)</view>
+</View>
+<Footer />

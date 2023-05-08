@@ -1,9 +1,1 @@
 /* pages/job-list/job-list.wxss */
-.topBar{
-  background: rgb(211,23,70);
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

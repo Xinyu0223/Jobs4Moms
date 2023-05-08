@@ -1,1 +1,31 @@
 /* Components/JobDisplay.wxss */
+
+.JobDisplayModule{
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.JobDisplayModuleContainer{
+  border-style: solid;
+  border-color: rgb(69, 164, 253);
+  border-width: 1pt;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.font_1{
+  font-size:25px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font_2 {
+  display: inline;
+  font: size 17px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font_3 {
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: serif;
+}
