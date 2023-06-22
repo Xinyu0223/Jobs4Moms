@@ -2,8 +2,63 @@
 <TopBar />
 <View class='JobDetailModule'>
   <view class="font_1" id='date'>Jul 25, 2022</view>
-  <view class="font_2" id='job-title'>Loan Officer</view>
-  <view class="font_3" >(Full-Time  </view>
-  <view class="font_3" id='salary'>$13/h)</view>
+  <view class="font_2" id='title'>Loan Officer </view>
+  <view class="font_2" >(Full-Time)</view>
+  <view class="font_3" id='comp_descript'>About Shirley Adams Financial services, Inc. Headquartered in Port St. Lucie, Florida, Shirley Adams Financial is a Licensed mortgage broker company assisting homeowners in Florida, Georgia, Virginia and Pennsylvania. NMLS ID # 852425. We are focused on providing each mortgage customer with the individual attention they deserve while meeting there financial needs.2018 best in customer service award</view>
+  <view class="line"></view>
+  <view class='text_section'>
+    <view class="font_4">JOB TITLE</view>
+    <view class="font_4" id='job_title'>Loan Officer</view>
+  </view>
+  <view class='text_section'>
+    <view class="font_4">JOB DESCRIPTION</view>
+    <view class="font_4" id='job_description'>Shirley Adams Financial seeks to offer qualifying candidates with no experience a trained loan officer position and the opportunity to become a high performing loan officer who supports the customers in the process of financing the home of their dreams. We will give you the tools you need to become a high performing loan originator.  This is a commissioned position . Work from home .Unlimited earning potential .Eligible for bonus  Come join a winning team! Apply today.</view>
+  </view>
+  <view class="line"></view>
+  <view class='text_section'>
+    <view class="font_4">NAME OF ORGANIZATION/COMPANY</view>
+    <view class="font_4" id='company'>Shirley Adams Financial Services</view>
+  </view>
+  <view class='text_section'>
+    <view class="font_4">OFFICIAL WEBSITE/SOCIAL MEDIA ACCOUNT</view>
+    <view class="font_4" id='website'>https://safmtg.com/</view>
+  </view>
+  <view class='text_section'>
+    <view class="font_4">INDUSTRY</view>
+    <view class="font_4" id='industry'>Finance & Accounting</view>
+  </view>
+  <view class='text_section'>
+    <view class="font_4">LOCATION (CITY, COUNTRY)</view>
+    <view class="font_4" id='location'>FL,USA</view>
+  </view>
+  <view class='text_section'>
+    <view class="font_4">EMPLOYMENT TYPE</view>
+    <view class="font_4" id='employ_type'>Full-Time</view>
+  </view>
+  <view class='text_section'>
+    <view class="font_4">WORK TYPE</view>
+    <view class="font_4" id='work_type'>Remote</view>
+  </view>
+  <view class='text_section'>
+    <view class="font_4">SALARY</view>
+    <view class="font_4" id='salary'>Not specified</view>
+  </view>
+  <view class='text_section'>
+    <view class="font_4">ROLES & RESPONSBILITIES</view>
+    <view class="font_4" id='responsibility'>Loan Officer</view>
+  </view>
+  <view class='text_section'>
+    <view class="font_4">QUALIFICATIONS</view>
+    <view class="font_4" id='qualification'>High School Diploma</view>
+  </view>
+  <view class="line"></view>
+  <view class='text_section'>
+    <view class="font_4">APPLICATION METHOD</view>
+    <view class="font_4" id='apply_method'>https://safmtg.com/jobs/loan-officer/</view>
+  </view>
+  <view class='text_section'>
+    <view class="font_4">PRE-JOB TRAINING</view>
+    <view class="font_4" id='pre_training'>Yes</view>
+  </view>
 </View>
 <Footer />

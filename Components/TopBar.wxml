@@ -1,4 +1,4 @@
 <!--Components/TopBar.wxml-->
 <View class='topBar'>
-  <text style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">Jobs4Moms</text>
+  <navigator url="/pages/home/home" style="color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">Jobs4Moms</navigator>
 </View>

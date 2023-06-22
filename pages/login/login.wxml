@@ -1,0 +1,17 @@
+<!--pages/login/login.wxml-->
+<TopBar />
+
+<view class="content">
+
+  <view class="hr"></view>
+  <button class="btn" bindtap='login' type="primary">微信登录</button>
+  <navigator url="/pages/mom-register/mom-register"><button class='btn'>妈妈注册</button></navigator>
+  <navigator url="/pages/employer-register/employer-register"><button class='btn'>雇主注册</button></navigator>
+
+
+
+</view>
+<view>{{message}}</view>
+
+
+<Footer />

@@ -1,0 +1,146 @@
+<!--pages/register/register.wxml-->
+<TopBar />
+<view class='RegisterModule'>
+  <form catchsubmit="formSubmit" catchreset="formReset">
+
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">radio</view>
+        <radio-group name="radio">
+          <label><radio value="radio1"/>选项一</label>
+          <label><radio value="radio2"/>选项二</label>
+        </radio-group>
+      </view>
+
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">checkbox</view>
+        <checkbox-group name="checkbox">
+          <label><checkbox value="checkbox1"/>选项一</label>
+          <label><checkbox value="checkbox2"/>选项二</label>
+        </checkbox-group>
+      </view>
+
+      <view class="input_section">
+        <view class="title">邮箱*</view>
+              <input class="weui-input" name="email" required="required" placeholder="请输入邮箱" />
+          </view>
+
+      <view class="input_section">
+        <view class="title">用户名*</view>
+              <input class="weui-input" name="username" required="required" placeholder="请输入用户名" />
+          </view>
+      
+      <view class="input_section">
+        <view class="title">密码*</view>
+              <input class="weui-input" name="password" required="required" placeholder="请输入密码" />
+          </view>
+
+      <view class="btn-area">
+        <button style="margin: 30rpx 0" type="primary" formType="submit">提交</button>
+        <button style="margin: 30rpx 0" formType="reset">重置</button>
+      </view>
+    </form>
+
+
+  <view class='input_section'>
+    <text class='title'>邮箱 *</text>
+    <input class='row_1' type="text" required="required">
+    </input>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>用户名 *</text>
+    <input class='row_1' type="text" required="required">
+    </input>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>密码 *</text>
+    <textarea bindinput="text" style="height: 4em" maxlength="-1" ></textarea>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>Industry *</text>
+    <input class='row_1' type="text" required="required">
+    </input>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>Location (City, Country) *</text>
+    <input class='row_1' type="text" required="required">
+    </input>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>Employment Type *</text>
+    <checkbox-group bindchange="checkClick">
+      <block wx:for="{{employeeTypeData}}">
+        <checkbox class='wx-checkbox-input' value='{{item.type}}'>{{item.type}}</checkbox>
+      </block>
+    </checkbox-group>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>Work Type *</text>
+    <checkbox-group bindchange="checkClick">
+      <block wx:for="{{workTypeData}}">
+        <checkbox class='work_type' value='{{item.type}}'>{{item.type}}</checkbox>
+      </block>
+    </checkbox-group>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>Monthly Salary Range *</text>
+    <input class='row_1' type="text" required="required">
+    </input>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>Job Title *</text>
+    <input class='row_1' type="text" required="required">
+    </input>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>Job Description *</text>
+    <textarea bindinput="textareaInput2" style="height: 4em" maxlength="-1" ></textarea>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>Roles & Responsibilities *</text>
+    <textarea bindinput="textareaInput2" style="height: 4em" maxlength="-1" ></textarea>
+  </view>
+
+  <view class='input_section'>
+    <text class='title'>Qualifications *</text>
+    <textarea bindinput="textareaInput2" style="height: 4em" maxlength="-1" ></textarea>
+  </view>
+  <view class='input_section'>
+    <text class='title'>Application Method *</text>
+    <input class='row_1' type="text" required="required">
+    </input>
+  </view>
+  <view class='input_section'>
+    <text class='title'>Application Deadline</text>
+    <input class='row_1' type="text" >
+    </input>
+  </view>
+  <view class='input_section'>
+    <text class='title'>Expected Start Date</text>
+    <input class='row_1' type="text">
+    </input>
+  </view>
+  <view class='input_section'>
+    <text class='title'>Submitted By (Name) *</text>
+    <input class='row_1' type="text" required="required">
+    </input>
+  </view>
+  <view class='input_section'>
+    <text class='title'>Submitter Contact Method *</text>
+    <input class='row_1' type="text" required="required">
+    </input>
+  </view>
+
+  <button class='btn_2' plain="true">注册</button>
+</view>
+<Footer />
+

@@ -1,9 +1,15 @@
 {
   "pages": [
-    "pages/job-detail/job-detail",
     "pages/job-list/job-list",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/mom-register/mom-register",
+    "pages/employer-register/employer-register",
+    "pages/employer-home/employer-home",
     "pages/home/home",
-    "pages/index/index"
+    "pages/mom-home/mom-home",
+    "pages/job-detail/job-detail",
+    "pages/job-submission/job-submission"
   ],
   "window": {
     "backgroundTextStyle": "light",

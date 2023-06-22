@@ -1,0 +1,39 @@
+/* pages/mom-home/mom-home.wxss */
+.Module{
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.ModuleContainer{
+  padding: 40px;
+}
+
+.font_1{
+  font-size:22px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 10px;
+}
+
+.font_2{
+  font-size:15px; 
+  font-family:serif;
+}
+
+.btn_1 {
+  margin-top: 20px;
+  border-radius: 40px;
+  background-color:rgb(235, 95, 90);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction:column ;
+  align-self: flex-end;
+}
+
+
+#Mom-FriendlyJobsModule{
+  background: rgb(232, 243, 245);
+}

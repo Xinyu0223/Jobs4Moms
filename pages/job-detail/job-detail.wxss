@@ -1,1 +1,33 @@
 /* pages/job-detail/job-detail.wxss */
+.JobDetailModule{
+  padding: 20px;
+  padding-bottom: 10px;
+}
+.font_1{
+  font-size: 15px;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  padding-top:15px;
+}
+
+.font_2{
+  display: inline;
+  font-size:25px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font_3{
+  font-family:serif;
+  /* padding-bottom:15px; */
+}
+
+.text_section{
+  padding-top: 15px;
+}
+
+.font_4{
+  font-family:serif;
+  font-size: 17px;
+}

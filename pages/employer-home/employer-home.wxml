@@ -1,0 +1,14 @@
+<!--pages/employee-home/employee-home.wxml-->
+<TopBar />
+
+<View class='Module' id="EmployersModule">
+  <View class='ModuleContainer' id="EmployersModuleContainer">
+    <view class="font_1">我是雇主</view>
+    <text class='font_2'>非常感谢您进入了这里，GMI正在收集各行各业灵活就业岗位的工作，以分享给更多有需要的妈妈和需要“身兼多职”的朋友们。
+    
+    如果您有这样的就业机会并愿意和GMI的朋友们分享，我们由衷感激，并诚恳邀请您填写表单。欢迎加入GMI，一起努力为妈妈和每一个人创造一个更加性别友好的公平社会。</text>
+    <navigator url="/pages/job-submission/job-submission"><button class='btn_2' plain="true">提交岗位</button></navigator>
+  </View>
+</View>
+
+<Footer />

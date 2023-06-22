@@ -1,5 +1,6 @@
 <!--Components/JobDisplay.wxml-->
 <View class='JobDisplayModule'>
+  <navigator url="/pages/job-detail/job-detail">
   <View class='JobDisplayModuleContainer'>
     <view class="font_1">{{jobTitle}}</view>
     <view class="font_2">{{companyTitle}}  </view>
@@ -8,4 +9,5 @@
     <view class='font_2'>{{salary}})</view>
     <view class='font_3'>{{brief}}</view>
   </View>
+  </navigator>
 </View>

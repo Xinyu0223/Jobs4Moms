@@ -1,0 +1,47 @@
+/* pages/job-submission/job-submission.wxss */
+.JobSubmissionModule{
+  padding: 20px;
+  font-family: serif;
+  font-size: 18px;
+}
+input{
+  margin-top: 5px;
+  border: 1px solid lightgray;
+  font-size: 18px;
+  padding: 8px;
+  font-family: serif;
+}
+textarea{
+  margin-top: 5px;
+  border: 1px solid lightgray;
+  font-size: 18px;
+  width: 100%;
+  padding: 8px;
+  font-family: serif;
+}
+
+.input_section {
+  padding-bottom: 15px;
+}
+
+checkbox {
+  padding-top: 5px;
+  width: 250rpx;
+  height: 60rpx;
+}
+
+checkbox .wx-checkbox-input {
+	width: 34rpx;
+	height: 34rpx;
+	border-radius: 50%;
+}
+
+.btn_2 {
+  margin: 10px;
+  border-radius: 40px;
+  color: rgb(124, 38, 36);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction:column ;
+  align-self: flex-end;
+}

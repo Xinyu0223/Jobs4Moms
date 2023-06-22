@@ -5,7 +5,7 @@
   <View class='ModuleContainer' id="Mom-FriendlyJobsModuleContainer">
     <view class="font_1">Mom-Friendly Jobs</view>
     <text class='font_2'>One of our top priorities is to collect flexible, mom-friendly jobs from various industries and organizations, aiming to provide support for full-time moms or moms who lost their jobs during the pandemic, to increase their social and financial security.</text>
-    <navigator class='btn_1' url="/pages/job-list/job-list">View Jobs</navigator>
+    <navigator url="/pages/job-list/job-list"><button class='btn_1'>View Jobs</button></navigator>
   </View>
 </View>
 
@@ -23,7 +23,7 @@
   <View class='ModuleContainer' id="EmployersModuleContainer">
     <view class="font_1">Employers</view>
     <text class='font_2'>If you are willing to provide such employment opportunities, we sincerely appreciate it and invite you to fill out the following form.</text>
-    <button class='btn_2' plain="true">Submit Jobs</button>
+    <navigator url="/pages/job-submission/job-submission"><button class='btn_2' plain="true">Submit Jobs</button></navigator>
   </View>
 </View>
 
