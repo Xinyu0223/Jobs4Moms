@@ -8,15 +8,15 @@
   </view>
 <view class='page-body' wx:for="{{list}}" wx:key="job_id">
 
-  <navigator url='../job-detail/job-detail'></navigator>
-  <JobDisplay
-  companyTitle="{{item.company_name}}"
-  jobTitle="{{item.job_title}}"
-  location="Wisconsin,USA"
-  salary="$13/h"
-  ifFullTime="{{true}}"
-  ifPartTime="{{false}}"
-  brief="{{item.jd}}"
-  />
+    <JobDisplay
+    job_id = "{{item.job_id}}"
+    companyTitle="{{item.company_name}}"
+    jobTitle="{{item.job_title}}"
+    location="Wisconsin,USA"
+    salary="{{item.job_id}}"
+    ifFullTime="{{true}}"
+    ifPartTime="{{false}}"
+    brief="{{item.jd}}"
+    />
 </view>
   <Footer />

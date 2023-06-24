@@ -18,7 +18,8 @@ Page({
     wx.request({
       url: 'http://127.0.0.1:8000/api/job_post/job_post/',
       data: {
-        search: "None"
+        search: "",
+        id: ""
       },
       success: res => {
         console.log('Get job posts successfully.')
@@ -38,7 +39,8 @@ Page({
     wx.request({
       url: 'http://127.0.0.1:8000/api/job_post/job_post/',
       data: {
-        search: e
+        search: e,
+        id: ""
       },
       success: res => {
         console.log('Get job posts successfully.')

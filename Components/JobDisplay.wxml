@@ -1,6 +1,6 @@
 <!--Components/JobDisplay.wxml-->
 <View class='JobDisplayModule'>
-  <navigator url="/pages/job-detail/job-detail">
+  <navigator url="/pages/job-detail/job-detail?id={{job_id}}">
   <View class='JobDisplayModuleContainer'>
     <view class="font_1">{{jobTitle}}</view>
     <view class="font_2">{{companyTitle}}  </view>

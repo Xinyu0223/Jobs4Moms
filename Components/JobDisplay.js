@@ -4,6 +4,9 @@ Component({
    * 组件的属性列表
    */
   properties: {
+    job_id: {
+      type: String
+    },
     companyTitle: {
       type: String
     },

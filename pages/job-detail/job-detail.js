@@ -5,14 +5,31 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    job: {}, // 数据列表
+    loading: true // 显示等待框
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    const _this = this;
+    wx.request({
+      url: 'http://127.0.0.1:8000/api/job_post/job_post/',
+      data: {
+        search: "",
+        id: options.id
+      },
+      success: res => {
+        console.log('Get job posts successfully.')
+        console.log(res.data.data)
+        _this.setData({
+          job: res.data.data[0],
+          loading: false // 关闭等待框
+        })
+        console.log(this.data.list)
+      }
+    })
   },
 
   /**
