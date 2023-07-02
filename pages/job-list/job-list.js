@@ -35,11 +35,12 @@ Page({
   },
 
   onSearch(e) {
+    console.log(e)
     const _this = this;
     wx.request({
       url: 'http://127.0.0.1:8000/api/job_post/job_post/',
       data: {
-        search: e,
+        search: e.detail.value,
         id: ""
       },
       success: res => {

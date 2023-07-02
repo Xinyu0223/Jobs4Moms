@@ -52,9 +52,11 @@ Page({
               if (res.data.code == 'success') {
                 const access = res.data.access
                 const user_group = res.data.user_group
+                const user_id = res.data.user_id
                 // 将token保存到缓存
                 wx.setStorageSync('access', access)
                 wx.setStorageSync("user_group", user_group)
+                wx.setStorageSync("user_id", user_id)
                 // 保存token的获取时间
                 wx.setStorage({
                   key: "access_time",

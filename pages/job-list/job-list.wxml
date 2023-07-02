@@ -1,7 +1,7 @@
 <!--pages/job-list/job-list.wxml-->
 <!-- <job-display></job-display> -->
 <TopBar />
-<search-bar default-text="搜索工作" focus-text="职位" bindsearch="onSearch" show-mask></search-bar>
+<search-bar bind:search_event="onSearch"></search-bar>
 <loading hidden="{{!loading}}">加载中...</loading>
 <view class='page-header'>
     <text class='page-title'>{{title}}</text>

@@ -1,55 +1,70 @@
 <!--pages/job-detail/job-detail.wxml-->
+<wxs src="../../utils/filter.wxs" module="filters"/>
 <TopBar />
 <loading hidden="{{!loading}}">加载中...</loading>
 <View class='JobDetailModule'>
-  <view class="font_1" id='date'>Jul 25, 2022</view>
+  <view class="font_1" id='date'>{{filters.formatDate(job.post_time)}}</view>
   <view class="font_2" id='title'>{{job.job_title}} </view>
-  <view class="font_2" >(Full-Time)</view>
   <view class="line"></view>
   <view class='text_section'>
-    <view class="font_4">JOB TITLE</view>
+    <view class="font_4">岗位名称</view>
     <view class="font_4" id='job_title'>{{job.job_title}} </view>
   </view>
   <view class='text_section'>
-    <view class="font_4">JOB DESCRIPTION</view>
+    <view class="font_4">岗位介绍</view>
     <view class="font_4" id='job_description'>{{job.jd}} </view>
   </view>
   <view class="line"></view>
   <view class='text_section'>
-    <view class="font_4">NAME OF ORGANIZATION/COMPANY</view>
+    <view class="font_4">公司/机构名称</view>
     <view class="font_4" id='company'>{{job.company_name}} </view>
   </view>
   <view class='text_section'>
-    <view class="font_4">OFFICIAL WEBSITE/SOCIAL MEDIA ACCOUNT</view>
+    <view class="font_4">官网网站/公众号</view>
     <view class="font_4" id='website'>{{job.website}} </view>
   </view>
   <view class='text_section'>
-    <view class="font_4">INDUSTRY</view>
+    <view class="font_4">行业</view>
     <view class="font_4" id='industry'>{{job.industry}} </view>
   </view>
   <view class='text_section'>
-    <view class="font_4">LOCATION (CITY, COUNTRY)</view>
+    <view class="font_4">工作地点</view>
     <view class="font_4" id='location'>{{job.working_location}} </view>
   </view>
   <view class='text_section'>
-    <view class="font_4">EMPLOYMENT TYPE</view>
-    <view class="font_4" id='employ_type'>Full-Time</view>
+    <view class="font_4">工作时长</view>
+    <view class="font_4" id='employ_type'>{{job.working_hour}}</view>
   </view>
   <view class='text_section'>
-    <view class="font_4">WORK TYPE</view>
+    <view class="font_4">是否远程办公</view>
     <view class="font_4" id='work_type'>{{job.if_remote}} </view>
   </view>
   <view class='text_section'>
-    <view class="font_4">SALARY</view>
+    <view class="font_4">工资范围</view>
     <view class="font_4" id='salary'>{{job.salary_range}} </view>
   </view>
-  <view class="line"></view>
   <view class='text_section'>
-    <view class="font_4">APPLICATION METHOD</view>
-    <view class="font_4" id='apply_method'>https://safmtg.com/jobs/loan-officer/</view>
+    <view class="font_4">联系人名称</view>
+    <view class="font_4" id='contact_name'>{{job.contact_name}} </view>
   </view>
+
   <view class='text_section'>
-    <view class="font_4">PRE-JOB TRAINING</view>
+    <view class="font_4">联系人手机号</view>
+    <view class="font_4" id='contact_mobile'>{{job.contact_mobile}} </view>
+  </view>
+
+  <view class='text_section'>
+    <view class="font_4">联系人微信</view>
+    <view class="font_4" id='contact_wechat'>{{job.contact_wechat}} </view>
+  </view>
+
+  <view class='text_section'>
+    <view class="font_4">联系人邮箱</view>
+    <view class="font_4" id='contact_wechat'>{{job.contact_email}} </view>
+  </view>
+
+  <view class='text_section'>
+    <view class="font_4">是否有入职前培训</view>
     <view class="font_4" id='pre_training'>{{job.if_training}} </view>
   </view>
 </View>

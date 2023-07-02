@@ -3,9 +3,14 @@
 
 <View class='Module' id="Mom-FriendlyJobsModule">
   <View class='ModuleContainer' id="Mom-FriendlyJobsModuleContainer">
-    <view class="font_1">Mom-Friendly Jobs</view>
-    <text class='font_2'>One of our top priorities is to collect flexible, mom-friendly jobs from various industries and organizations, aiming to provide support for full-time moms or moms who lost their jobs during the pandemic, to increase their social and financial security.</text>
-    <navigator url="/pages/job-list/job-list"><button class='btn_1'>View Jobs</button></navigator>
+    <view class="font_1">Jobs4Moms妈妈重回职场项目</view>
+    <text class='font_2'>发起缘由：
+在社会支持体系还不完善的今天，妈妈身份对于女性的支持和束缚作用是GM妈妈力研究的重要议题。在社会政策和支持体系从根本上发生改善之前，我们还是想积极、理性和富有建设性地探讨和挖掘如何支持到更多妈妈，尤其是身兼多职的妈妈们。
+
+GMI在发起支持妈妈写作| 妈妈故事100人项目和创业妈妈CEO100人俱乐部外，面向因为要更好地照顾孩子和家庭而“被迫”或“主动”全职妈妈的母亲们，以及在疫情中失去工作的妈妈们，希望能够支持到她们灵活就业，最大化发挥自己的人力资本，实现社会价值的同时，保持与时俱进的竞争力。
+
+同时，我们同步收集和倡导各行各业分享和创造这样的灵活就业岗位和职能，开放给更多妈妈，和更多需要“身兼多职”的朋友。欢迎大家加入GM!，我们每一天都在努力，为妈妈和每一个人创造一个更加性别友好的公平社会！</text>
+    <navigator url="/pages/job-list/job-list"><button class='btn_1'>查看岗位</button></navigator>
   </View>
 </View>
 
