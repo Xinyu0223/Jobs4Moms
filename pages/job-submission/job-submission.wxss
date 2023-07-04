@@ -1,27 +1,30 @@
 /* pages/job-submission/job-submission.wxss */
 .JobSubmissionModule{
   padding: 20px;
-  font-family: serif;
-  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+label{
+  padding-right: 8%;
 }
 input{
-  margin-top: 5px;
   border: 1px solid lightgray;
-  font-size: 18px;
-  padding: 8px;
-  font-family: serif;
+  font-size: 15px;
+  padding: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 textarea{
   margin-top: 5px;
   border: 1px solid lightgray;
-  font-size: 18px;
+  font-size: 15px;
   width: 100%;
   padding: 8px;
-  font-family: serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .input_section {
   padding-bottom: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 checkbox {

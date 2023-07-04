@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/job-submission/job-submission",
     "pages/login/login",
     "pages/job-list/job-list",
     "pages/index/index",
@@ -8,8 +9,7 @@
     "pages/employer-register/employer-register",
     "pages/employer-home/employer-home",
     "pages/home/home",
-    "pages/job-detail/job-detail",
-    "pages/job-submission/job-submission"
+    "pages/job-detail/job-detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

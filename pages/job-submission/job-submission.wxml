@@ -93,7 +93,7 @@
 
       <view class="page-section page-section-gap">
         <view class="page-section-title">9. 是否远程办公</view>
-        <radio-group name="if_remote">
+        <radio-group name="if_remote" style="margin: 30rpx 0">
           <label><radio value="远程"/>远程</label>
           <label><radio value="线下"/>线下</label>
           <label><radio value="混合模式"/>混合模式</label>
@@ -102,11 +102,11 @@
 
       <view class="page-section page-section-gap"> 
         <view class="page-section-title">10. 月薪区间</view>
-        <radio-group name="salary_range">
+        <radio-group name="salary_range" style="margin: 30rpx 0; width: 40%">
           <label><radio value="1000-3000"/>1000-3000</label>
           <label><radio value="3000-5000"/>3000-5000</label>
           <label><radio value="5000-10000"/>5000-10000</label>
-          <label><radio value="10000+"/>10000+</label>
+          <label><radio value="10000+"/>超过10000</label>
           <label><radio value="固定收入"/>固定收入</label>
         </radio-group>
       </view>
@@ -157,7 +157,7 @@
 
       <view class="page-section page-section-gap"> 
         <view class="page-section-title">15. 是否提供简单的职前培训* </view>
-        <radio-group name="if_training">
+        <radio-group name="if_training" style="margin: 30rpx 0">
           <label><radio value="是"/>是</label>
           <label><radio value="否"/>否</label>
           <label><radio value="根据需求可以安排"/>根据需求可以安排</label>
@@ -177,7 +177,7 @@
 
       <view class="page-section page-section-gap"> 
         <view class="page-section-title">17. 是否愿意优先提供以上工作给全职妈妈* </view>
-        <radio-group name="if_prioritize">
+        <radio-group name="if_prioritize" style="margin: 30rpx 0">
           <label><radio value="是"/>是</label>
           <label><radio value="否"/>否</label>
           <label><radio value="其他"/>其他</label>
