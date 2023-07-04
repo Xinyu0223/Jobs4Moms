@@ -5,7 +5,8 @@
   font-size: 15px;
 }
 label{
-  padding-right: 8%;
+  display: flex;
+  margin-bottom: 20rpx;
 }
 input{
   border: 1px solid lightgray;

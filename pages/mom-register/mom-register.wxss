@@ -1,1 +1,47 @@
 /* pages/mom-register/mom-register.wxss */
+
+.RegisterModule{
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+input{
+  border: 1px solid lightgray;
+  font-size: 15px;
+  padding: 4px;
+}
+
+radio-group{
+  display: flex;
+} 
+radio-group radio{
+  margin-left: 10rpx;
+} 
+radio-group label{
+  margin-right: 10%;
+}
+checkbox-group label{
+  display: flex;
+  margin-bottom: 20rpx;
+}
+
+.page-section-title{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.btn_2 {
+  margin: 10px;
+  border-radius: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column ;
+  align-self: flex-end;
+}
+
+.btn-area{
+  display: flex;
+  flex-direction: row;
+}

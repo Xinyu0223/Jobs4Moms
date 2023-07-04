@@ -1,1 +1,33 @@
 /* pages/employer-register/employer-register.wxss */
+.RegisterModule{
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+input{
+  border: 1px solid lightgray;
+  font-size: 15px;
+  padding: 4px;
+}
+
+.page-section-title{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.btn_2 {
+  margin: 10px;
+  border-radius: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column ;
+  align-self: flex-end;
+}
+
+.btn-area{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+}

@@ -7,7 +7,7 @@
         <view class="page-section-title">1. 姓名*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
-            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+            <view class="weui-cell__bd">
               <input class="weui-input" name="name" placeholder="请输入您的姓名" required="required"/>
             </view>
           </view>
@@ -18,7 +18,7 @@
         <view class="page-section-title">2. 公司名称*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
-            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+            <view class="weui-cell__bd">
               <input class="weui-input" name="company_name" placeholder="请输入您的公司名称" required="required"/>
             </view>
           </view>
@@ -29,7 +29,7 @@
         <view class="page-section-title">3. 邮箱*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
-            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+            <view class="weui-cell__bd">
               <input class="weui-input" name="email" placeholder="请输入您的邮箱" required="required"/>
             </view>
           </view>
@@ -40,7 +40,7 @@
         <view class="page-section-title">4. 公司行业*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
-            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+            <view class="weui-cell__bd">
               <input class="weui-input" name="industry" placeholder="请输入您的公司所属行业" required="required"/>
             </view>
           </view>
@@ -51,7 +51,7 @@
         <view class="page-section-title">5. 联系方式（手机号）*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
-            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+            <view class="weui-cell__bd">
               <input class="weui-input" name="telephone" placeholder="请输入您的手机号" required="required"/>
             </view>
           </view>
@@ -62,16 +62,20 @@
         <view class="page-section-title">6. 联系方式（微信号）*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
-            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+            <view class="weui-cell__bd">
               <input class="weui-input" name="wechat" placeholder="请输入您的微信号" required="required"/>
             </view>
           </view>
         </view>
       </view>
 
+      <!-- <view class="btn-area">
+        <button style="width:120px" type="primary" formType="submit">提交</button>
+        <button style="width:120px"  formType="reset">重置</button>
+      </view> -->
       <view class="btn-area">
-        <button style="margin: 30rpx 0" type="primary" formType="submit">提交</button>
-        <button style="margin: 30rpx 0" formType="reset">重置</button>
+        <button style="width:120px" class='btn_2' formType="reset">重置</button>
+        <button style="width:120px" class='btn_2' type="primary" formType="submit">提交</button>
       </view>
     </form>
 
