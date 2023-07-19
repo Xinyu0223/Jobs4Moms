@@ -4,11 +4,8 @@
 <view class="content">
 
   <view class="hr"></view>
-  <button class="btn" bindtap='login' type="primary">微信登录</button>
-  <navigator url="/pages/mom-register/mom-register"><button class='btn'>妈妈注册</button></navigator>
-  <navigator url="/pages/employer-register/employer-register"><button class='btn'>雇主注册</button></navigator>
-
-
+  <button class="btn" bindtap='login' data-type="mom" type="primary">我是妈妈</button>
+  <button class="btn" bindtap='login' data-type="employer" type="primary">我是雇主</button>
 
 </view>
 <view>{{message}}</view>

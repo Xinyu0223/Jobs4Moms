@@ -1,12 +1,12 @@
 {
   "pages": [
+    "pages/login/login",
     "pages/mom-register/mom-register",
     "pages/employer-register/employer-register",
     "pages/job-detail/job-detail",
     "pages/employer-home/employer-home",
     "pages/mom-home/mom-home",
     "pages/index/index",
-    "pages/login/login",
     "pages/job-list/job-list",
     "pages/job-submission/job-submission",
     "pages/home/home"

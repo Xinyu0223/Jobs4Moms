@@ -7,21 +7,21 @@ Page({
 
   // 登录函数
   // 注意它有一个参数: callback本身是个函数
-  login() {
+  login(e) {
+    const type = e.currentTarget.dataset.type
     if (!this.isTokenAvailable()) {
       console.log('Get Token from dj.')
       // 获取token并传入callback
-      this.getToken()
+      this.getToken(type)
     } else {
       console.log('Get Token from storage.')
       // 如果缓存中token未过期则直接执行callback
-      const user_group = wx.getStorageSync('user_group')
-      if (user_group == 'mom') {
+      if (type == 'mom') {
         console.log('mom group')
         wx.redirectTo({
           url: '../mom-home/mom-home',
         })
-      } else if (user_group == 'employer') {
+      } else if (type == 'employer') {
         wx.redirectTo({
           url: "../employer-home/employer-home",
         })
@@ -30,7 +30,7 @@ Page({
       }
     }
   },
-  getToken() {
+  getToken(type) {
     let that = this;
     wx.login({
       success(res) {
@@ -63,22 +63,32 @@ Page({
                   data: Date.parse(new Date())
                 })
 
-                if (user_group == 'mom') {
+                if (user_group == 'mom' && type == 'mom') {
                   console.log('mom group')
                   wx.redirectTo({
                     url: '../mom-home/mom-home',
                   })
-                } else if (user_group == 'employer') {
+                } else if (user_group == 'employer' && type == 'employer') {
                   wx.redirectTo({
                     url: "../employer-home/employer-home",
                   })
-                } else {
+                } else if (user_group == 'admin'){
                   console.log('admin log in')
+                } else {
+                  that.setData({
+                    message: '请选择正确的角色！',//赋值
+                  })
                 }
               } else {
-                that.setData({
-                  message: '请注册账号！',//赋值
-                })
+                if (type == 'mom') {
+                  wx.redirectTo({
+                    url: '../mom-register/mom-register',
+                  })
+                } else {
+                  wx.redirectTo({
+                    url: '../employer-register/employer-register',
+                  })
+                }
               }
             }
           })
