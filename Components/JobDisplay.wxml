@@ -4,10 +4,10 @@
   <View class='JobDisplayModuleContainer'>
     <view class="font_1">{{jobTitle}}</view>
     <view class="font_2">{{companyTitle}}  </view>
-    <view class='font_2' wx:if="{{ifFullTime}}">(Full-Time  </view>
-    <view class='font_2' wx:if="{{ifPartTime}}">(Part-Time  </view>
-    <view class='font_2'>{{salary}})</view>
-    <view class='font_3'>{{brief}}</view>
+    <view class="font_2">{{jobType}}  </view>
+    <view class='font_2'>{{salary}}</view>
+    <view class='font_2'>{{location}}</view>
+    <view class='font_3'>{{postedTime}}</view>
   </View>
   </navigator>
 </View>

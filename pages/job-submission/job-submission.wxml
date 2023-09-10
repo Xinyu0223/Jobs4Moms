@@ -4,7 +4,26 @@
   <form catchsubmit="formSubmit" catchreset="formReset">
 
     <view class="page-section">
-        <view class="page-section-title">1. 公司/机构名称*</view>
+        <view class="page-section-title">1. 招聘岗位名称*</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" name="job_title" required="required"/>
+            </view>
+          </view>
+        </view>
+      </view>
+
+    <view class="page-section page-section-gap"> 
+        <view class="page-section-title">2. 岗位类型* </view>
+        <radio-group name="job_type" style="margin: 30rpx 0">
+          <label><radio value="全职"/>全职</label>
+          <label><radio value="兼职"/>兼职</label>
+        </radio-group>
+      </view>
+
+    <view class="page-section">
+        <view class="page-section-title">3. 公司/机构名称*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -15,7 +34,7 @@
       </view>
     
       <view class="page-section">
-        <view class="page-section-title">2. 公司/机构简介*</view>
+        <view class="page-section-title">4. 公司/机构简介*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -26,7 +45,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">3. 官网/微信公众号*</view>
+        <view class="page-section-title">5. 官网/微信公众号*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -37,7 +56,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">4. 所在行业*</view>
+        <view class="page-section-title">6. 所在行业*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -48,18 +67,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">5. 岗位名称*</view>
-        <view class="weui-cells weui-cells_after-title">
-          <view class="weui-cell weui-cell_input">
-            <view class="weui-cell__bd" style="margin: 30rpx 0" >
-              <input class="weui-input" name="job_title" required="required"/>
-            </view>
-          </view>
-        </view>
-      </view>
-
-      <view class="page-section">
-        <view class="page-section-title">6. 岗位说明/介绍*</view>
+        <view class="page-section-title">7. 岗位说明/介绍*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -70,7 +78,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">7. 工作时间*</view>
+        <view class="page-section-title">8. 工作时间*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -81,7 +89,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">8. 工作地点*</view>
+        <view class="page-section-title">9. 工作地点*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -92,7 +100,7 @@
       </view>
 
       <view class="page-section page-section-gap">
-        <view class="page-section-title">9. 是否远程办公</view>
+        <view class="page-section-title">10. 是否远程办公</view>
         <radio-group name="if_remote" style="margin: 30rpx 0">
           <label><radio value="远程"/>远程</label>
           <label><radio value="线下"/>线下</label>
@@ -101,7 +109,7 @@
       </view>
 
       <view class="page-section page-section-gap"> 
-        <view class="page-section-title">10. 月薪区间</view>
+        <view class="page-section-title">11. 月薪区间</view>
         <radio-group name="salary_range" style="margin: 30rpx 0; width: 40%">
           <label><radio value="1000-3000"/>1000-3000</label>
           <label><radio value="3000-5000"/>3000-5000</label>
@@ -112,7 +120,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">11. 联系人姓名*</view>
+        <view class="page-section-title">12. 联系人姓名*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -123,7 +131,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">12. 联系人手机号*</view>
+        <view class="page-section-title">13. 联系人手机号*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -134,7 +142,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">13. 联系人微信号*</view>
+        <view class="page-section-title">14. 联系人微信号*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -145,7 +153,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">14. 联系人邮箱*</view>
+        <view class="page-section-title">15. 联系人邮箱*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -156,7 +164,7 @@
       </view>
 
       <view class="page-section page-section-gap"> 
-        <view class="page-section-title">15. 是否提供简单的职前培训* </view>
+        <view class="page-section-title">16. 是否提供简单的职前培训* </view>
         <radio-group name="if_training" style="margin: 30rpx 0">
           <label><radio value="是"/>是</label>
           <label><radio value="否"/>否</label>
@@ -165,7 +173,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">16. 入职时间*</view>
+        <view class="page-section-title">17. 入职时间*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >
@@ -176,7 +184,7 @@
       </view>
 
       <view class="page-section page-section-gap"> 
-        <view class="page-section-title">17. 是否愿意优先提供以上工作给全职妈妈* </view>
+        <view class="page-section-title">18. 是否愿意优先提供以上工作给全职妈妈* </view>
         <radio-group name="if_prioritize" style="margin: 30rpx 0">
           <label><radio value="是"/>是</label>
           <label><radio value="否"/>否</label>
@@ -185,7 +193,7 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">18. 我们欢迎您的更多宝贵意见，支持妈妈有效重回职场</view>
+        <view class="page-section-title">19. 我们欢迎您的更多宝贵意见，支持妈妈有效重回职场</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >

@@ -10,10 +10,10 @@ Component({
     companyTitle: {
       type: String
     },
-    brief: {
+    jobTitle: {
       type: String
     },
-    jobTitle: {
+    jobType: {
       type: String
     },
     location: {
@@ -22,13 +22,8 @@ Component({
     salary: {
       type: String
     },
-    ifFullTime: {
-      type: Boolean,
-      value: true
-    },
-    ifPartTime: {
-      type: Boolean,
-      value: true
+    postedTime: {
+      type: String
     },
   },
 

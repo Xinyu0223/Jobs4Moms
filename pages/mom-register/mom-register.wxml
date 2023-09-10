@@ -15,11 +15,11 @@
       </view>
     
     <view class="page-section">
-        <view class="page-section-title">2. 邮箱*</view>
+        <view class="page-section-title">2. 工作年限*</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd">
-              <input class="weui-input" name="email" placeholder="请输入您的邮箱" required="required"/>
+              <input class="weui-input" name="work_year" placeholder="请输入您的工作年限" required="required"/>
             </view>
           </view>
         </view>
@@ -37,40 +37,18 @@
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">4. 居住城市*</view>
+        <view class="page-section-title">4. 预期薪酬范围</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
-            <view class="weui-cell__bd">
-              <input class="weui-input" name="city" placeholder="请输入您的城市" required="required"/>
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" name="expect_salary" />
             </view>
           </view>
         </view>
       </view>
 
-    <view class="page-section page-section-gap">
-        <view class="page-section-title">5. 年龄段</view>
-        <radio-group name="age_group" style="width: 30%;">
-          <label><radio value="18以下"/>18以下</label>
-          <label><radio value="18-25"/>18-25</label>
-          <label><radio value="26-30"/>26-30</label>
-          <label><radio value="31-40"/>31-40</label>
-          <label><radio value="41-50"/>41-50</label>
-          <label><radio value="51-60"/>51-60</label>
-          <label><radio value="60以上"/>60以上</label>
-        </radio-group>
-      </view>
-
       <view class="page-section page-section-gap">
-        <view class="page-section-title">6. 您有几个孩子</view>
-        <radio-group name="nb_child">
-          <label><radio value="1"/>1个</label>
-          <label><radio value="2"/>2个</label>
-          <label><radio value="3以上"/>3个或以上</label>
-        </radio-group>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">7. 您希望寻找的灵活就业包括以下哪几种类型？</view>
+        <view class="page-section-title">5. 过往工作技能关键词</view>
         <checkbox-group name="job_type">
           <label><checkbox value="视觉平面设计"/>视觉平面设计</label>
           <label><checkbox value="UI/IX等网站/小程序设计"/>UI/IX等网站/小程序设计
@@ -98,74 +76,66 @@
         </view>
       </view>
 
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">弹性工作时间</view>
-        <slider min="0" max="10" value="5" name="dim0" show-value ></slider>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">体面的收入</view>
-        <slider min="0" max="10" value="5" name="dim1" show-value ></slider>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">体面的工作内容</view>
-        <slider min="0" max="10" value="5" name="dim2" show-value ></slider>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">不用频繁出差</view>
-        <slider min="0" max="10" value="5" name="dim3" show-value ></slider>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">不用业务应酬</view>
-        <slider min="0" max="10" value="5" name="dim4" show-value ></slider>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">有明确的工作内容和目标</view>
-        <slider min="0" max="10" value="5" name="dim5" show-value ></slider>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">可以远程完成大部分工作</view>
-        <slider min="0" max="10" value="5" name="dim6" show-value ></slider>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">接触到更广阔的世界和人</view>
-        <slider min="0" max="10" value="5" name="dim7" show-value ></slider>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">有线下社交机会</view>
-        <slider min="0" max="10" value="5" name="dim8" show-value ></slider>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">合作团队气氛友好</view>
-        <slider min="0" max="10" value="5" name="dim9" show-value ></slider>
-      </view>
-
-      <view class="page-section page-section-gap">
-        <view class="page-section-title">提供培训和学习机会</view>
-        <slider min="0" max="10" value="5" name="dim10" show-value ></slider>
-      </view>
-
-    <view class="page-section">
-        <view class="page-section-title">9. 预期薪酬范围</view>
-        <view class="weui-cells weui-cells_after-title">
-          <view class="weui-cell weui-cell_input">
-            <view class="weui-cell__bd" style="margin: 30rpx 0" >
-              <input class="weui-input" name="expect_salary" />
-            </view>
+      <view class="page-section">
+        <view class="page-section-title">6. 灵活就业关注方向小调查</view>
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">弹性工作时间</view>
+            <slider min="0" max="10" value="5" name="dim0" show-value ></slider>
           </view>
-        </view>
+
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">体面的收入</view>
+            <slider min="0" max="10" value="5" name="dim1" show-value ></slider>
+          </view>
+
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">体面的工作内容</view>
+            <slider min="0" max="10" value="5" name="dim2" show-value ></slider>
+          </view>
+
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">不用频繁出差</view>
+            <slider min="0" max="10" value="5" name="dim3" show-value ></slider>
+          </view>
+
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">不用业务应酬</view>
+            <slider min="0" max="10" value="5" name="dim4" show-value ></slider>
+          </view>
+
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">有明确的工作内容和目标</view>
+            <slider min="0" max="10" value="5" name="dim5" show-value ></slider>
+          </view>
+
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">可以远程完成大部分工作</view>
+            <slider min="0" max="10" value="5" name="dim6" show-value ></slider>
+          </view>
+
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">接触到更广阔的世界和人</view>
+            <slider min="0" max="10" value="5" name="dim7" show-value ></slider>
+          </view>
+
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">有线下社交机会</view>
+            <slider min="0" max="10" value="5" name="dim8" show-value ></slider>
+          </view>
+
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">合作团队气氛友好</view>
+            <slider min="0" max="10" value="5" name="dim9" show-value ></slider>
+          </view>
+
+          <view class="page-section page-section-gap">
+            <view class="page-section-title">提供培训和学习机会</view>
+            <slider min="0" max="10" value="5" name="dim10" show-value ></slider>
+          </view>
       </view>
 
       <view class="page-section">
-        <view class="page-section-title">10. 请您留下对Jobs4Moms妈妈重回职场项目的其他建议</view>
+        <view class="page-section-title">9. 请您留下对Jobs4Moms妈妈重回职场项目的其他建议</view>
         <view class="weui-cells weui-cells_after-title">
           <view class="weui-cell weui-cell_input">
             <view class="weui-cell__bd" style="margin: 30rpx 0" >

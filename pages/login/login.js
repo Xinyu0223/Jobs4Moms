@@ -14,24 +14,31 @@ Page({
       // 获取token并传入callback
       this.getToken(type)
     } else {
+      const user_group = wx.getStorageSync("user_group")
+      console.log(user_group)
       console.log('Get Token from storage.')
       // 如果缓存中token未过期则直接执行callback
-      if (type == 'mom') {
+      if (user_group == 'mom' && type == 'mom') {
         console.log('mom group')
         wx.redirectTo({
           url: '../mom-home/mom-home',
         })
-      } else if (type == 'employer') {
+      } else if (user_group == 'employer' && type == 'employer') {
         wx.redirectTo({
           url: "../employer-home/employer-home",
         })
-      } else {
+      } else if (user_group == 'admin'){
         console.log('admin log in')
+      } else {
+        wx.showToast({
+          title: '请选择正确的角色！',
+          icon: 'none',
+          duration: 1500
+        })
       }
     }
   },
   getToken(type) {
-    let that = this;
     wx.login({
       success(res) {
         if (res.code) {
@@ -75,8 +82,10 @@ Page({
                 } else if (user_group == 'admin'){
                   console.log('admin log in')
                 } else {
-                  that.setData({
-                    message: '请选择正确的角色！',//赋值
+                  wx.showToast({
+                    title: '请选择正确的角色！',
+                    icon: 'none',
+                    duration: 1500
                   })
                 }
               } else {

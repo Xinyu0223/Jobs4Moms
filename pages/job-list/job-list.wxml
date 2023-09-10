@@ -1,5 +1,6 @@
 <!--pages/job-list/job-list.wxml-->
 <!-- <job-display></job-display> -->
+<wxs src="../../utils/filter.wxs" module="filters"/>
 <TopBar />
 <search-bar bind:search_event="onSearch"></search-bar>
 <loading hidden="{{!loading}}">加载中...</loading>
@@ -12,11 +13,10 @@
     job_id = "{{item.job_id}}"
     companyTitle="{{item.company_name}}"
     jobTitle="{{item.job_title}}"
-    location="Wisconsin,USA"
-    salary="{{item.job_id}}"
-    ifFullTime="{{true}}"
-    ifPartTime="{{false}}"
-    brief="{{item.jd}}"
+    jobType="{{item.job_type}}"
+    location="{{item.working_location}}"
+    salary="{{item.salary_range}}"
+    postedTime="{{filters.formatDate(item.post_time)}}"
     />
 </view>
   <Footer />

@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/job-list/job-list",
+    "pages/job-submission/job-submission",
     "pages/login/login",
     "pages/mom-register/mom-register",
     "pages/employer-register/employer-register",
@@ -7,8 +9,6 @@
     "pages/employer-home/employer-home",
     "pages/mom-home/mom-home",
     "pages/index/index",
-    "pages/job-list/job-list",
-    "pages/job-submission/job-submission",
     "pages/home/home"
   ],
   "window": {
